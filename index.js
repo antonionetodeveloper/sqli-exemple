@@ -1,7 +1,9 @@
 const express = require('express')
 const mysql = require('mysql')
+const cors = require('cors')
 
 const app = express()
+app.use(cors())
 app.use(express.json())
 
 // yes.. i know... but it's just a example
@@ -31,7 +33,7 @@ app.post('/', async (request, response) => {
     
 })
 
-const port = 3000
+const port = 3001
 app.listen(port, () => {
     console.log(`listening on port: ${port}`)
 })
