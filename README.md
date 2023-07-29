@@ -1,12 +1,12 @@
 # sqli-exemple
 
-api: https://sqli-exemple.onrender.com
+api: https://sqli-exemple.onrender.com </br>
 endpoint: /
 
-Json exemple:
-{
-  "user": "random_user",
-  "password": "123"
-}
+Json exemple: </br>
+{ </br>
+    "user": "random_user", </br>
+    "password": "123" </br>
+} </br>
 
-Have fun
+###Have fun
